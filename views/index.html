@@ -1,0 +1,14 @@
+<!DOCTYPE html>  
+<html lang="en">  
+  <head>
+    <meta charset="utf-8">
+    <title>List of inventors</title> 
+
+  </head>
+  <body>
+    <ul>
+        <% for(var i=0;i<inventors.length;i++) { %>
+          <li><%=inventors[i].first+ " "+inventors[i].last+ " "+inventors[i].year%> </li>
+        <%}%>
+    </ul> 
+  </body>
